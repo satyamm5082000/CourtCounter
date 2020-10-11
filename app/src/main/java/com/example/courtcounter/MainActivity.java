@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int countA = 0;
-    int countB = 0;
+    int count1 = 0;
+    int count2 = 0;
     Button button1 ;
     Button button2 ;
     Button button3 ;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countA = countA + 3;
+                count1 = count1 + 3;
 
                 textView1.setText(String.valueOf( countA));
 
@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countA = countA + 2;
+                count1 = count1 + 2;
 
-                textView1.setText(String.valueOf( countA));
+                textView1.setText(String.valueOf( count1));
 
             }
         });
@@ -68,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countA = countA + 1;
+                count1 = count1 + 1;
 
-                textView1.setText(String.valueOf( countA));
+                textView1.setText(String.valueOf( count1));
 
             }
         });
@@ -80,9 +80,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countB = countB + 3;
+                count2 = count2 + 3;
 
-                textView2.setText(String.valueOf( countB));
+                textView2.setText(String.valueOf( count2));
 
             }
         });
@@ -92,9 +92,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countB = countB + 2;
+                count2 = count2 + 2;
 
-                textView2.setText(String.valueOf( countB));
+                textView2.setText(String.valueOf( count2));
 
             }
         });
@@ -103,9 +103,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                countB = countB + 1;
+                count2 = count2 + 1;
 
-                textView2.setText(String.valueOf( countB));
+                textView2.setText(String.valueOf( count2));
 
             }
         });
@@ -116,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 textView1.setText("0");
                 textView2.setText("0");
-                countA = 0 ;
-                countB = 0 ;
+                count1 = 0 ;
+                count2 = 0 ;
             }
         });
     }
